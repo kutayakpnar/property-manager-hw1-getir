@@ -1,22 +1,5 @@
-# Emlak Yönetim Sistemi
 
-Bu proje, farklı türdeki mülkleri (Ev, Villa ve Yazlık) yönetmek için geliştirilmiş bir Java uygulamasıdır. Nesne yönelimli programlama prensiplerini kullanarak, mülklerin fiyat ve metrekare gibi özelliklerini yönetmeyi sağlar.
 
-## Proje Yapısı
-
-```
-patika-getir-hw1/
-├── src/
-│   ├── Property.java      # Temel mülk sınıfı (abstract)
-│   ├── House.java         # Ev sınıfı
-│   ├── Villa.java         # Villa sınıfı
-│   ├── SummerHouse.java   # Yazlık sınıfı
-│   ├── PropertyManager.java # Mülk yönetim servisi
-│   └── Main.java          # Ana uygulama sınıfı
-└── out/                   # Derlenmiş .class dosyaları
-```
-
-## Tasarım Kararları
 
 1. **Soyutlama (Abstraction)**
    - `Property` sınıfı abstract olarak tasarlandı çünkü:
@@ -68,17 +51,6 @@ patika-getir-hw1/
 - ArrayList kullanılarak dinamik veri yapıları oluşturuldu
 - Clean Code prensipleri gözetildi (anlamlı isimlendirmeler, tek sorumluluk prensibi)
 
-## Çalıştırma
-
-Projeyi derlemek ve çalıştırmak için:
-
-```bash
-# Derleme
-javac src/*.java -d out
-
-# Çalıştırma
-java -cp out Main
-```
 
 ## Çıktı Örneği
 
