@@ -1,0 +1,29 @@
+public abstract class Property {
+    private double price;
+    private double squareMeters;
+    private int numberOfRooms;
+    private int numberOfLivingRooms;
+
+    public Property(double price, double squareMeters, int numberOfRooms, int numberOfLivingRooms) {
+        this.price = price;
+        this.squareMeters = squareMeters;
+        this.numberOfRooms = numberOfRooms;
+        this.numberOfLivingRooms = numberOfLivingRooms;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getSquareMeters() {
+        return squareMeters;
+    }
+
+    public int getNumberOfRooms() {
+        return numberOfRooms;
+    }
+
+    public int getNumberOfLivingRooms() {
+        return numberOfLivingRooms;
+    }
+} 
